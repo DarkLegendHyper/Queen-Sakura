@@ -22,7 +22,7 @@ my life whatsapp bot
 
 💃QUEEN-ZIZUKO💃
 
-  ideo autoplay scr="https://i.imgur.com/8kJDlqi.mp4"></video>  
+  <video autoplay scr="https://i.imgur.com/8kJDlqi.mp4"></video>  
 
 ●. ***[SCAN QR CODE SERVER 1](https://)***
 
