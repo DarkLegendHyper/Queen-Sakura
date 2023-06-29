@@ -2,10 +2,9 @@
 my life whatsapp bot
    <p align="center">  
   <a href="https://i.imgur.com/8kJDlqi.mp4">
-    <img alt="secktor docs" height="300" src="https://i.imgur.com/8kJDlqi.mp4">
-    <h1 align="center"> 💃QUEEN-ZIZUKO💃 </h1>
+        💃QUEEN-ZIZUKO💃 </h1>
   <img src="[https://media1.giphy.com/media/XqVUeEK5Lt3VOGEzJj](https://i.imgur.com/8kJDlqi.mp4)/giphy.gif" width="610">
-</p>  
+</p>   
 <p align="center">
   <a aria-label="Join our chats" href="https://chat.whatsapp.com" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
