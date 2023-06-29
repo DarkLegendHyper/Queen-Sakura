@@ -7,7 +7,7 @@ my life whatsapp bot
 <video autoplay scr="https://i.imgur.com/8kJDlqi.mp4"></video>
   </p>   
 <p align="center">
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com" target="_blank">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/CyInl6ylRrPAQmcpVe1hX1" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
   <a aria-label="Secktor is free to use" href="https://github.com/SamPandey001/Secktor-Md/blob/main/LICENCE" target="_blank">
