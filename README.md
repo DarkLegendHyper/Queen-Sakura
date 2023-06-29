@@ -3,7 +3,7 @@ my life whatsapp bot
    <p align="center">  
   <a href="https://i.imgur.com/8kJDlqi.mp4">
         💃QUEEN-ZIZUKO💃 </h1>
-  <img src="[https://media1.giphy.com/media/XqVUeEK5Lt3VOGEzJj](https://i.imgur.com/8kJDlqi.mp4)/giphy.gif" width="610">
+  <img src="https://i.imgur.com/1Ew8GyQ.jpeg" width="610">
 <video autoplay scr="https://imgur.io/8kJDlqi"</video>
   </p>   
 <p align="center">
