@@ -4,7 +4,7 @@ my life whatsapp bot
   <a href="https://i.imgur.com/8kJDlqi.mp4">
         💃QUEEN-ZIZUKO💃 </h1>
   <img src="[https://media1.giphy.com/media/XqVUeEK5Lt3VOGEzJj](https://i.imgur.com/8kJDlqi.mp4)/giphy.gif" width="610">
-<video autoplay scr="https://imgur.io/8kJDlqi"
+<video autoplay scr="https://imgur.io/8kJDlqi"</video>
   </p>   
 <p align="center">
   <a aria-label="Join our chats" href="https://chat.whatsapp.com" target="_blank">
