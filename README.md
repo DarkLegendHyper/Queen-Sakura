@@ -32,7 +32,7 @@ my life whatsapp bot
 
 
 ## 💃QUEEN-ZIZUKO TEAM - ZIZUKO-MD *[ student  ]*
-| <a href=""><img src="https://avatars.githubusercontent.com/u/125533708?v=4" width=80 height=80></a> | <a href="https://www.instagram.com/sinhalaya_official_/"><img src="https://avatars.githubusercontent.com/u/107849120?v=4" width=80 height=80></a> | <a href="https://www.instagram.com/saji_x.x_4/"><img src="https://avatars.githubusercontent.com/u/106251140?v=4" width=80 height=80></a> |
+| <a
 
  
 
