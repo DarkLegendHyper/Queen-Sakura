@@ -18,18 +18,18 @@ global.apikey = '' // AMBIL DI LOLHUMAN
 global.rosekey = 'cba86fac49e37d63f9bd4561' // ROSE
 
 //—————「 Set Nama Bot & Own 」—————//
-global.namabot = 'ᴋᴏɴᴇᴋᴏ-ᴍᴅ'
-global.namaowner = '𝚔𝚘𝚒'
-global.wagc = "https://chat.whatsapp.com/Cf5wYQbDK8cDnolIkPruwk"
+global.namabot = '💃𝗤𝗨𝗘𝗘𝗡-𝗭𝗜𝗭𝗨𝗞𝗢💃'
+global.namaowner = '𝗦𝗬𝗕𝗘𝗥_𝗭𝗜𝗭𝗨𝗞𝗢'
+global.wagc = "https://chat.whatsapp.com"
 
 //—————「 Setting Owner 」—————//
-global.owner = ['6288210828960']
-global.nomerowner = '6288210828960'
-global.premium = ['6288210828960']
+global.owner = ['94770378874']
+global.nomerowner = '94770378874'
+global.premium = ['94770378874']
 
 //—————「 Set Wm 」—————//
-global.packname = 'ᴋᴏɴᴇᴋᴏ-ᴍᴅ'
-global.author = 'Bot: +62 895-3253-44177\nYouTube: QyuuNee\nInstagram: iamunderox_'
+global.packname = '💃𝗤𝗨𝗘𝗘𝗡-𝗭𝗜𝗭𝗨𝗞𝗢💃'
+global.author = 'Bot: +94770378874\nYouTube: QyuuNee\nInstagram:'
 global.prefa = ['', '.']
 global.sp = '•'
 
