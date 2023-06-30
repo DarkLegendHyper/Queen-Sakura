@@ -28,7 +28,7 @@ my life whatsapp bot
 
   <video autoplay scr="https://i.imgur.com/8kJDlqi.mp4"></video>  
 
-●. ***[SCAN QR CODE SERVER 1](https://)***
+●. ***[SCAN QR CODE SERVER 1](https://i.imgur.com/8kJDlqi.mp4)***
 
 ●. ***[SCAN QR CODE SERVER 2](https:///)***
 
