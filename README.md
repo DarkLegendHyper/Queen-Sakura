@@ -7,7 +7,9 @@ my life whatsapp bot
   </p>   
 <p align="center">
   <a aria-label="Join our communty " href="https://chat.whatsapp.com/CyInl6ylRrPAQmcpVe1hX1" target="_blank">
-   
+    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  
   <a aria-label="Join our group" href="https://chat.whatsapp.com/KUwc3H3tUZNHcmionwhqbi" target="_blank">
    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
