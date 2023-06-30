@@ -26,20 +26,10 @@ my life whatsapp bot
 
 💃QUEEN-ZIZUKO💃
 
-  <video autoplay scr="https://i.imgur.com/8kJDlqi.mp4"></video>  
-
-●. ***[SCAN QR CODE SERVER 1](https://i.imgur.com/8kJDlqi.mp4)***
-
-●. ***[SCAN QR CODE SERVER 2](https:///)***
-
-●. [![Deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app)
 
 
 ## 💃QUEEN-ZIZUKO TEAM - ZIZUKO-MD *[ student  ]*
 | <a
-
- 
-
 
  ---
 
