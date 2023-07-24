@@ -5907,7 +5907,7 @@ break
 ┃🍃${pushname} 
 ┗━━━━━━━━━━━━━━━━━━••`
             let buttonMessage = {
-                        video:fs.readFileSync('./system/Queen-Sakura_1.jpg'),gifPlayback:true,
+                        video:fs.readFileSync('./system/Queen-Sakura_1.jpg'),imgPlayback:true,
                         caption: helpmenu,
                         
                         headerType: 4
