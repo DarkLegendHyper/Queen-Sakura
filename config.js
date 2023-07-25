@@ -38,7 +38,7 @@ global.lolhuman = "KaysaS";
 global.BotLogo = fs.readFileSync("./Assets/QueenSakura1.jpg");
 global.Thumb = fs.readFileSync("./Assets/QueenSakura1.jpg");
 global.Thumb1 = fs.readFileSync("./Assets/QueenSakura1.jpg");
-global.ErrorPic = fs.readFileSync("./Assets/QueenSakura2.jpg");
+global.ErrorPic = fs.readFileSync("./Assets/QueenSakura1.jpg");
 
 
 //
