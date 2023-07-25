@@ -2188,6 +2188,7 @@ fs.writeFileSync('./database/leveling.json', JSON.stringify(_leveling))
 reply('Leveling deactivated')
 } 
 break
+		    
 
 
 ////////////////////////////////////////////////////////////////////////////
