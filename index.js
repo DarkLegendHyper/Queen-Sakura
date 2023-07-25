@@ -55,11 +55,11 @@ async function startA17() {
       "yellow"
     )
   );
-  console.log(color('\nHello, I am sunetj, the main Developer of this bot.\n\nThanks for using: Queen-Sakura Bot.', 'aqua'))
+  console.log(color('\nHello, I am suneth, the main Developer of this bot.\n\nThanks for using: Queen-Sakura Bot.', 'aqua'))
   console.log(color('\nYou can follow me on GitHub: blacksyberzizuko', 'aqua'))
 
   const { state, saveCreds } = await useMultiFileAuthState("./Sakura session");
-  const A17 = A17Connect({
+  const QueenSakura = QueenSakuraConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
     browser: ["Sakura Bot", "Safari", "3.O"],
