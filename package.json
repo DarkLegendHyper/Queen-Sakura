@@ -7,8 +7,9 @@
       "lib": "lib"
     },
     "scripts": {
-      "start": "node index.js",
-      "test": "node index.js"
+      "forever": " forever index.js && forever save && forever logs",
+      "start": "yarn forever",
+      "test": "yarn forever"
     },
     "repository": {
       "type": "git",
