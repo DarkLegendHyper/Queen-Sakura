@@ -18,27 +18,27 @@ global.packname = "🧚‍♂️QUEEN-SAKURA-MD🧚‍♂️";
 global.author = "©Created by:SUNETH";
 global.OwnerName = "Suneth";
 global.BotSourceCode = "https://github.com/blacksyberzizuko/Queen-Sakura";
-global.SupportGroupLink = "https://chat.whatsapp.com/Jjaq7d67KDW1HyvSRrwAqr";
+global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 global.sessionName = "session";
 
 
 //  Prefix  //
-global.prefa = ["_"];
+global.prefa = [".","-","/","#","_"];
 
 
 //
 global.location = "ANURADHAPURA";
 global.reactmoji = "👋";
 global.themeemoji = "🎭";
-global.vidmenu = { url: 'https://telegra.ph/file/8d41345f1d46fddb4300d.mp4' };
+global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
 global.websitex = "https://github.com/blacksyberzizuko";
 global.lolhuman = "KaysaS";
 
 //
-global.BotLogo = fs.readFileSync("./Assets/QueenSakura1.jpg");
-global.Thumb = fs.readFileSync("./Assets/QueenSakura1.jpg");
-global.Thumb1 = fs.readFileSync("./Assets/QueenSakura1.jpg");
-global.ErrorPic = fs.readFileSync("./Assets/QueenSakura1.jpg");
+global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
+global.Thumb = fs.readFileSync("./Assets/pic9.jpg");
+global.Thumb1 = fs.readFileSync("./Assets/pic5.jpg");
+global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg");
 
 
 //
