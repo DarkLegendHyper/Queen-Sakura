@@ -1,5 +1,5 @@
 require("./config.js")
-const { default: A17Connect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: SakuraConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const fs = require('fs')
@@ -29,8 +29,8 @@ console.log(color(figlet.textSync('Queen Sakura Bot', {
 console.log(color('\nHello, I am Suneth, the main Developer of this bot.\n\nThanks for using: Queen sakura Bot','aqua'))
 console.log(color('\nYou can follow me on GitHub: blacksyberzizuko','aqua'))
 
-    let { version, isLatest } = await fetchLatestBaileysVersion()
-    const A17 = QueenSakuraConnect({
+    const { state, saveCreds } = await useMultiFileAuthState("./Sakura session");
+    const A17 = SakuraConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
         browser: ['Queen Sakura By: Suneth','Safari','1.0.0'],
