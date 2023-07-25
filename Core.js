@@ -5683,7 +5683,7 @@ break
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
     A17.sendMessage(from, { react: { text: "🧚‍♂️" , key: m.key }})      
-    const helpmenu = `   ☰|𝗤𝗨𝗘𝗘𝗡-𝗦𝗔𝗞𝗨𝗥𝗔-𝗠𝗗|☰
+    const helpmenu = `☰|𝗤𝗨𝗘𝗘𝗡-𝗦𝗔𝗞𝗨𝗥𝗔-𝗠𝗗|☰
  ┏━━━━━━━━━━━━━━━━━••
  ┃𝗛𝗜 *${pushname}* 👋
  ┃❃ ${ucapanWaktu} ,
@@ -5907,7 +5907,7 @@ break
 ┃🍃${pushname} 
 ┗━━━━━━━━━━━━━━━━━━••`
             let buttonMessage = {
-                        video:fs.readFileSync('./system/Queen-Sakura_1.jpg'),imgPlayback:true,
+                        video:fs.readFileSync('./system/QueenSakura1.mp4'),imgPlayback:true,
                         caption: helpmenu,
                         
                         headerType: 4
