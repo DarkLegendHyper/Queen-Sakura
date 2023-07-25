@@ -65,7 +65,7 @@ async function startA17() {
   const A17 = A17Connect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["Sakura Bot", "Safari", "3.O"],
+    browser: ["A17 Bot", "Safari", "3.O"],
     auth: state,
   });
 
