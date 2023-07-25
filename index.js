@@ -48,7 +48,7 @@ const store = makeInMemoryStore({
 async function startA17() {
   console.log(
     color(
-      figlet.textSync("Queen-Sakura Bot MD", {
+      figlet.textSync("QueenSakuraBotMD", {
         font: "Pagga",
         horizontalLayout: "default",
         vertivalLayout: "default",
