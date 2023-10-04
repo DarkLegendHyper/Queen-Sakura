@@ -4014,7 +4014,7 @@ case 'song':
 case 'music': {
   if (isBan) return reply(mess.banned);
   if (isBanChat) return reply(mess.bangc);
-  A17.sendMessage(from, { react: { text: "🍁", key: m.key }});
+  A17.sendMessage(from, { react: { text: "🎧", key: m.key }});
 
   const YT = require('./lib/ytdl-core');
   const yts = require('youtube-yts');
@@ -4033,15 +4033,15 @@ case 'music': {
       image: { url: thumbnailUrl }, // Include the thumbnail image in the response
       caption: `\n*Downloading:* *${anu.title}*
             
-  ⏳ *Duration :* ${anu.timestamp}
+  ● *Duration :* ${anu.timestamp}
 
-  📈 *Viewers :* ${anu.views}
+  ● *Viewers :* ${anu.views}
 
-  🎐 *Channel :* ${anu.author.name}
+  ● *Channel :* ${anu.author.name}
 
-  🏮 *Video Uploaded:* ${anu.ago}
+  ● *Video Uploaded:* ${anu.ago}
 
-  🔗 *Url :* ${anu.url}\n`,
+  ● *Url :* ${anu.url}\n`,
 
     },
     { quoted: m }
@@ -5664,225 +5664,195 @@ break
     case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-    A17.sendMessage(from, { react: { text: "✨" , key: m.key }})      
-    const helpmenu = `Hemlo *${pushname}* Dear...!! ${nowtime} ,
+    A17.sendMessage(from, { react: { text: "👸" , key: m.key }})      
+    const helpmenu = `┏⦁━━━━━━━━━━━━❖❖━━━━━━━━━━━⦁┓
+┣━━━━━━┃ *QUEEN-SAKURA* ┃━━━━━━┫ 
+┃ Hello *${pushname}* 👋
+┃🧜‍♂️ *QUEEN-SAKURA-MD* 🧜‍♂️    
+┃ HAVE A ${nowtime} ,
+┣━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃🕧    *Time* : ${kaitime}
+┃📆    *Date* : ${kaidate}
+┗━━━━━━━━━❊
+
+▢━━━━━━━┃ *BOT INFORM* ┃━━┓
+┏━━━━━━━┛
+┃
+┃🧜‍♂️  *Bot usr name :* ${pushname} 
+┃🌱  *My prefix is :*  ${prefix}
+┃👤  *Owner name :* ${global.OwnerName} 
+┃⏳  *Bot runtime :* ${runtime(process.uptime())} 
+┃🧬  *Platform :* Linux
+┗━━━━━━━━━❊
+
+▢━━━━━━━━━┃ *Details* ┃━━━━┓
+┏━━━━━━━━━┛
+┃
+┃🔖  *${prefix}repo*
+┃🔖  *${prefix}script*
+┃🔖  *${prefix}support*
+┃🔖  *${prefix}sakura*
+┃🔖  *${prefix}delete*
+┗━━━━━━━━━❊ 
+
+▢━━━━┃ *Owner menu* ┃━━━━━━━┓
+┏━━━━┛
+┃
+┃🥷🏻  *${prefix}join*
+┃🥷🏻  *${prefix}self*
+┃🥷🏻  *${prefix}public*
+┃🥷🏻  *${prefix}restart*
+┃🥷🏻  *${prefix}sleep*
+┃🥷🏻  *${prefix}setbotpp*
+┃🥷🏻  *${prefix}post*
+┃🥷🏻  *${prefix}listonline*
+┃🥷🏻  *${prefix}listgc*
+┃🥷🏻  *${prefix}listpc*
+┃🥷🏻  *${prefix}getcase*
+┃🥷🏻  *${prefix}bangroup*
+┃🥷🏻  *${prefix}broadcast*
+┃🥷🏻  *${prefix}block*
+┃🥷🏻  *${prefix}unblock*
+┗━━━━━━━━━❊
+   
+▢━━━━┃ *Group menu* ┃━━━━━━━┓
+┏━━━━┛
+┃
+┃🪀  *${prefix}add*
+┃🪀  *${prefix}invite*
+┃🪀  *${prefix}remove*
+┃🪀  *${prefix}promote*
+┃🪀  *${prefix}demote*
+┃🪀  *${prefix}grouplink*
+┃🪀  *${prefix}groupsetting*
+┃🪀  *${prefix}setname*
+┃🪀  *${prefix}setgcpp*
+┃🪀  *${prefix}setdesc*
+┃🪀  *${prefix}tagall*
+┃🪀  *${prefix}hidetag*
+┗━━━━━━━━━❊ 
     
-    │─────────────│
-    ┠⬡│▸ ${pushname} I am *A17*,
-    ┠⬡│ a Bot Developed by *Kai*.
-    │─────────────│
-    │╭────────────···▸
-    ┠─────═[ *TODAY* ]═────
-    │╰────────────···▸
-    │╭────────────···▸
-    ┴│▸ 
-    ⬡│▸ *Time* : ${kaitime}
-    ⬡│▸ *Date* : ${kaidate}
-    ┬│▸
-    │╰────────────···▸
-    ┠───═[ *BOT INFO* ]═──▸
-    │╭────────────···▸
-    ┴│▸ 
-    ⬡│▸ *Bot usr name :* ${pushname} 
-    ⬡│▸ *My prefix is :*  ${prefix}
-    ⬡│▸ *Owner name :* ${global.OwnerName} 
-    ⬡│▸ *Total Bot user :* ${Object.keys(global.db.users).length}
-    ⬡│▸ *Bot runtime :* ${runtime(process.uptime())} 
-    ⬡│▸ *Platform :* Linux 
-    ┬│▸
-    │╰────────────···▸
-    ┠⬡│▸ All Commands.
-    │╭────────────···▸
-    │╰────────────···▸
-    ┠─━━〈 ⚙️ *Core* ⚙️ 〉━━
-    │╭────────────···▸
-    ┴│▸ 
-    ⬡│▸ speak, A17, stalk
-    ⬡│▸ profile, delete
-    ⬡│▸ deleteall, listgc, listpc
-    ⬡│▸ welcome, support
-    ⬡│▸ repo, script, help
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 ❤️‍🔥 *Owner* ❤️‍🔥 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ self, public,
-    ⬡│▸ setdp, post
-    ⬡│▸ join, bye
-    ⬡│▸ listonline, listgc
-    ⬡│▸ listpc, cpp, getcase
-    ⬡│▸ bangroup, block, 
-    ⬡│▸ unblock, broadcast,
-    ⬡│▸ ban add, ban del
-    ┬│▸ 
-    ╰────────────···▸
-    ┠━━〈 ⭕ *Group* ⭕ 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ add, remove, tagall
-    ⬡│▸ promote, demote, revoke
-    ⬡│▸ hidetag, groupsetting 
-    ⬡│▸ grouplink, setgcpp
-    ⬡│▸ setname, setdesc,leveling
-    ⬡│▸ group, nsfw, nsnfwmenu
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 ❗ *Anti Link ❗* 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ antilinkgc, antilinktg
-    ⬡│▸ antilinktt, antilinkytch
-    ⬡│▸ antilinkytvid, antilinkig
-    ⬡│▸ antilinkfb, antilinktwit
-    ⬡│▸ antilinkall, antiwame
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 🔍 *Search* 🔎 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ play, ytmp3, ytmp4 
-    ⬡│▸ yts, lyrics, movie
-    ⬡│▸ google, gimage, pinterest
-    ⬡│▸ image, wallpaper
-    ⬡│▸ searchgc, happymod
-    ⬡│▸ wikimedia, ringtone
-    ⬡│▸ anime, animestory
-    ⬡│▸ manga, ringtone
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 📈 *Economy* 📈 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ daily, wallet
-    ⬡│▸ bank, bankupgrade
-    ⬡│▸ deposit, withdraw 
-    ⬡│▸ rob / attack
-    ⬡│▸ transfer / give
-    ⬡│▸ wealth / ritual
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 🎮 *Games* 🎮 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ ttt / tictactoe
-    ⬡│▸ truth, dare
-    ⬡│▸ spin / slot
-    ⬡│▸ gamble / lottery
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 🛠️ *Convert* 🛠️ 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ sticker, toimg, tovideo
-    ⬡│▸ togif, steal, stickermeme
-    ⬡│▸ emojimix, tourl, tomp3, toaudio
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 🎼 *Audio* 🎼 〉━━
-    │╭─────────────···▸
-    ┴│▸ 
-    ⬡│▸ bass, tempo, blown,
-    ⬡│▸ robot, slow, squirrel
-    ⬡│▸ deep, earrape, fast,
-    ⬡│▸ fat, nightcore, reverse,
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 📍 *Reactions* 📍 〉━━
-    │╭─────────────···▸
-    ┴│▸  
-    ⬡│▸ cuddle, hug, kiss, 
-    ⬡│▸ bonk, cry, bully,
-    ⬡│▸ slap, kill, happy,
-    ⬡│▸ lick, pat, smug,
-    ⬡│▸ nom, glomp, bite,
-    ⬡│▸ yeet, blush, smile,
-    ⬡│▸ wave, highfive, handhold,
-    ⬡│▸ wink, poke, dance, cringe
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 🌌 *Downloader* 🌌 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ ytvideo, mediafire, instagram,
-    ⬡│▸ igtv, facebook, fbmp3,
-    ⬡│▸ twitter, twittermp3,
-    ⬡│▸ tiktok, tiktokaudio, happymod
-    ⬡│▸ tiktoknowm, mediafire  
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 🎐 *Fun* 🎐 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ reaction,  cutecheck
-    ⬡│▸ couple, soulmate, handsomecheck
-    ⬡│▸ beautifulcheck, awesomecheck
-    ⬡│▸ greatcheck, gaycheck,
-    ⬡│▸ uglycheck, charactercheck
-    ⬡│▸ lesbiancheck, hornycheck,
-    ⬡│▸ prettycheck, lovelycheck,
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 🈴 *Weeb* 🈴 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ crosplay, waifu, loli,
-    ⬡│▸ tickle, wallpaper, coffee,
-    ⬡│▸ neko, ppcouple, feed,
-    ⬡│▸ foxgirl, feed, meow,
-    ⬡│▸ animenom, waifu3, neko2,
-    ⬡│▸ feed, meow, tickle, migumin
-    ⬡│▸ awoo, animewallpaper2
-    ⬡│▸ anime, manga
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 ♨️ *Informative* ♨️ 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ animequote, quote, weather
-    ⬡│▸ covid, earthquake, wiki
-    ⬡│▸ stalknumber / nowa
-    ┬│▸
-    ╰────────────···▸
-    ━━〈 🪁 *Essentials* 🪁 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ qr, say, translate, 
-    ⬡│▸ fliptext, toletter
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 🎗 *Others* 🎗 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ stickermeme, quotes,
-    ⬡│▸ Report, darkjoke, afk
-    ┬│▸
-    ╰────────────···▸
-    ┠━━〈 ⚠️ *NSFW* ⚠️ 〉━━
-    │╭─────────────···▸
-    ┴│▸
-    ⬡│▸ 🍁 Type " *${prefix}nsfw* " then enable 
-    ⬡│▸    NSFW (Admin only!)
-    ⬡│▸
-    ⬡│▸ 🍁 Then type " *${prefix}nsfwmenu* " for
-    ⬡│▸    all NSFW commands.
-    ⬡│▸
-    ⬡│▸ 『  *${global.BotName}*  』
-    ⬡│▸    Developed By: *Kai*
-    ⬡│▸
-    ⬡│▸ 🍁 To use any of these
-    ⬡│▸    commands type.
-    ⬡│▸
-    ⬡│▸ " *${prefix}<Command name>* ".
-    ⬡│▸
-    ⬡│▸ 🍁 To get Support Group link
-    ⬡│▸  type " *${prefix}support* ".
-    ⬡│▸
-    ⬡│▸
-    ⬡│▸ 🍁 Type " *${prefix}help* " to get
-    ⬡│▸   full command list.
-    ┬│▸
-    ╰────────────···▸`
+▢━━━━┃ *Search menu* ┃━━━━━━┓
+┏━━━━┛    
+┃   
+┃🔎  *${prefix}play*
+┃🔎  *${prefix}song*
+┃🔎  *${prefix}video*
+┃🔎  *${prefix}ytmp3*
+┃🔎  *${prefix}ytmp4* 
+┃🔎  *${prefix}yts*
+┃🔎  *${prefix}lyrics*
+┃🔎  *${prefix}movie*
+┃🔎  *${prefix}google*
+┃🔎  *${prefix}gimage*
+┃🔎  *${prefix}pinterest*
+┃🔎  *${prefix}wallpaper*
+┃🔎  *${prefix}image*
+┃🔎  *${prefix}searchgc*
+┃🔎  *${prefix}wikimedia*
+┗━━━━━━━━━❊ 
+
+▢━━━━┃ *Convert menu* ┃━━━━━┓
+┏━━━━┛   
+┃
+┃🛠️  *${prefix}sticker*
+┃🛠️  *${prefix}toimg*
+┃🛠️  *${prefix}tovideo*
+┃🛠️  *${prefix}togif*
+┃🛠️  *${prefix}tourl*
+┃🛠️  *${prefix}tomp3*
+┃🛠️  *${prefix}toaudio*
+┃🛠️  *${prefix}steal*
+┃🛠️  *${prefix}stickermeme*
+┃🛠️  *${prefix}emojimix*
+┗━━━━━━━━━❊
+
+▢━━━━┃ *Sound menu* ┃━━━━━━━┓
+┏━━━━┛
+┃
+┃🎙️  *${prefix}ringtone*
+┃🎙️  *${prefix}bass*
+┃🎙️  *${prefix}tempo*
+┃🎙️  *${prefix}blown*
+┃🎙️  *${prefix}robot*
+┃🎙️  *${prefix}slow*
+┃🎙️  *${prefix}squirrel*
+┃🎙️  *${prefix}deep*
+┃🎙️  *${prefix}earrape*
+┃🎙️  *${prefix}fast*
+┃🎙️  *${prefix}fat*
+┃🎙️  *${prefix}nightcore*
+┃🎙️  *${prefix}reverse*
+┗━━━━━━━━━❊ 
+
+▢━━━━┃ *Reactions menu* ┃━━━┓
+┏━━━━┛   
+┃
+┃🎭  *${prefix}cuddle*
+┃🎭  *${prefix}hug*
+┃🎭  *${prefix}kiss*
+┃🎭  *${prefix}bonk*
+┃🎭  *${prefix}cry*
+┃🎭  *${prefix}bully*
+┃🎭  *${prefix}slap*
+┃🎭  *${prefix}kill*
+┃🎭  *${prefix}happy*
+┃🎭  *${prefix}lick*
+┃🎭  *${prefix}pat*
+┃🎭  *${prefix}smug*
+┃🎭  *${prefix}nom*
+┃🎭  *${prefix}glomp*
+┃🎭  *${prefix}bite*
+┃🎭  *${prefix}yeet*
+┃🎭  *${prefix}blush*
+┃🎭  *${prefix}smile*
+┃🎭  *${prefix}wave*
+┃🎭  *${prefix}highfive*
+┃🎭  *${prefix}handhold6
+┃🎭  *${prefix}poke*
+┃🎭  *${prefix}wink*
+┃🎭  *${prefix}dance*
+┃🎭  *${prefix}cringe*
+┗━━━━━━━━━❊
+
+▢━━━━┃ *Downloade menu* ┃━━━┓
+┏━━━━┛   
+┃  
+┃📩  *${prefix}ytvideo*
+┃📩  *${prefix}mediafire*
+┃📩  *${prefix}instagram*
+┃📩  *${prefix}igtv*
+┃📩  *${prefix}facebook*
+┃📩  *${prefix}fbmp3*
+┃📩  *${prefix}twitter*
+┃📩  *${prefix}twittermp3*
+┃📩  *${prefix}tiktok*
+┃📩  *${prefix}tiktokaudio*
+┃📩  *${prefix}happymod*
+┃📩  *${prefix}tiktoknowm*
+┗━━━━━━━━━❊  
+   
+▢━━━━┃ *Informative menu* ┃━┓
+┏━━━━┛    
+┃  
+┃🔮  *${prefix}quote*
+┃🔮  *${prefix}weather*
+┃🔮  *${prefix}covid*
+┃🔮  *${prefix}earthquake*
+┃🔮  *${prefix}wiki*
+┃🔮  *${prefix}stalknumber*
+┗━━━━━━━━━❊  
+
+▢━━━━━━━━┃ *Essentials menu* ┃━┓
+┏━━━━━━━━┛   
+┃    
+┃🌀   *${prefix}qr*
+┃🌀   *${prefix}say*
+┃🌀   *${prefix}fliptext*
+┃🌀   *${prefix}toletter*
+┃🌀   *${prefix}translate,*
+┗━━━━━━━━━❊ 
+©Qᴜᴇᴇɴ-ꜱᴀᴋᴜʀᴀ❷❍❷❸       ╰────────────···▸`
             let buttonMessage = {
                         video:fs.readFileSync('./system/A17_3.mp4'),gifPlayback:true,
                         caption: helpmenu,
