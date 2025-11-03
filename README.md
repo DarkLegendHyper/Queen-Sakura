@@ -22,7 +22,7 @@ my life whatsapp bot
 </p>
 ---
 
-<p align="center"><img src="https://profile-counter.glitch.me/{prabathLK}/count.svg" alt="prabathLK :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{prabathLK}/count.svg" alt="MR DARK-HYPR" /></p>
 
 💃QUEEN-ZIZUKO💃
 
